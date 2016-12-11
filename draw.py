@@ -40,14 +40,14 @@ def gravity(window, drops):
             z = random.randint(1, 5)
             window.coords(drop,
                           x, y,
-                          x + 2 + (z * 0.2), y + 10 + z)
+                          x + 2 + (z * 0.2), y + 10 + (z * 2))
 
 def init(window, drops):
     items = []
     for drop in drops:
         items.append(drawRectangle(window,
                                    drop[0], drop[1],
-                                   2 + (drop[2] * 0.2), 10 + drop[2],
+                                   2 + (drop[2] * 0.2), 10 + (drop[2] * 2),
                                    random.choice(consts.TK_RDM_COLORS)))
     return items
 
