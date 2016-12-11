@@ -20,7 +20,7 @@ def getWindow(pInstance):
 
 def attachUpdater(instance, window, data):
     instance.after(consts.TK_UPDATE_TIMER, updateHandler,
-                    instance, window, data)
+                   instance, window, data)
 
 def updateHandler(instance, window, data):
     gravity(window, data)

@@ -18,7 +18,6 @@ def main():
                        random.randint(-consts.TK_WIN_HEIGHT, 0),
                        random.randint(1, 5)])
 
-
     draw.resetBackground(window, consts.TK_COLOR_BLACK)
 
     graphicPoints = draw.init(window, points)
