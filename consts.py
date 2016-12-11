@@ -1,0 +1,21 @@
+# const placeholder module
+
+DROP_COUNT = 500
+
+TK_WIN_WIDTH = 800
+TK_WIN_HEIGHT = 600
+TK_UPDATE_TIMER = 10
+
+TK_COLOR_WHITE      = '#ffffff'
+TK_COLOR_BLACK      = '#000000'
+TK_COLOR_SKYBLUE    = '#33ccff'
+TK_COLOR_YELLOW     = '#ffff00'
+TK_COLOR_VIOLET     = '#ff00ff'
+TK_COLOR_ORANGE     = '#ff9933'
+TK_COLOR_BLUE       = '#0000ff'
+TK_COLOR_RED        = '#ff0000'
+TK_COLOR_GREEN      = '#00ff00'
+
+TK_RDM_COLORS = [TK_COLOR_WHITE, TK_COLOR_GREEN, TK_COLOR_RED, TK_COLOR_BLUE,
+                 TK_COLOR_ORANGE,
+                 TK_COLOR_VIOLET, TK_COLOR_YELLOW, TK_COLOR_SKYBLUE]
